@@ -1,0 +1,22 @@
+# Local Python environment
+venv/
+.venv/
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter temporary files only
+.ipynb_checkpoints/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Keep generated outputs and notebooks tracked.
+!PA2_code/outputs/
+!PA2_code/outputs/**
+!PA2_code/**/*.ipynb

@@ -1,0 +1,38 @@
+{
+  "config": {
+    "seed": 42,
+    "batch_size": 16,
+    "block_size": 32,
+    "learning_rate": 0.001,
+    "n_embd": 64,
+    "n_head": 2,
+    "n_layer": 4,
+    "ff_hidden": 100,
+    "max_iters": 500,
+    "eval_interval": 100,
+    "eval_iters": 200,
+    "evaluation_protocol": "First up to 200 batches of sliding windows per corpus; token-weighted cross-entropy, then exponentiation."
+  },
+  "device": "cpu",
+  "torch_version": "2.15.0+cpu",
+  "vocab_size": 5634,
+  "decoder_backbone_parameters": 482192,
+  "lm_head_parameters": 366210,
+  "total_decoder_lm_parameters": 848402,
+  "training_target_tokens": 256000,
+  "final_metrics": {
+    "iteration": 500,
+    "train_perplexity": 183.19335208736254,
+    "train_mean_loss": 5.210542163848877,
+    "train_eval_tokens": 102400,
+    "obama_perplexity": 391.6529747516831,
+    "obama_mean_loss": 5.970376179218293,
+    "obama_eval_tokens": 102400,
+    "wbush_perplexity": 472.8383876536424,
+    "wbush_mean_loss": 6.158753654956818,
+    "wbush_eval_tokens": 102400,
+    "hbush_perplexity": 404.10215197773687,
+    "hbush_mean_loss": 6.001667697429657,
+    "hbush_eval_tokens": 102400
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "config": {
+    "seed": 42,
+    "batch_size": 16,
+    "block_size": 32,
+    "learning_rate": 0.001,
+    "n_embd": 64,
+    "n_head": 2,
+    "n_layer": 4,
+    "encoder_ff_hidden": 100,
+    "classifier_hidden": 100,
+    "epochs": 15
+  },
+  "device": "cpu",
+  "torch_version": "2.15.0+cpu",
+  "vocab_size": 5634,
+  "encoder_parameters": 482192,
+  "total_parameters": 488995,
+  "final_test_accuracy_percent": 83.86666666666666
+}

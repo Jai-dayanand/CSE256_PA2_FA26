@@ -1,0 +1,10 @@
+{
+  "model": "EleutherAI/pythia-160m-deduped",
+  "context": 128,
+  "seed": 42,
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.2",
+  "data_sha256": "6cb3bb657ae40cab1cb8f3f38f391dbdcc80a9b21b577d5fc1ea4ba86901bed2",
+  "token_count": 6017,
+  "dtype": "float32"
+}
